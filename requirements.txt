@@ -4,7 +4,7 @@ amqp==1.4.6
 behave==1.2.5
 behaving==1.4.1
 celery==3.1.17
-gevent==1.0.2
+gevent==25.4.1
 gevent-subprocess==0.1.1
 netaddr==0.7.18
 paramiko==1.16.0
@@ -25,3 +25,4 @@ sphinx-rtd-theme==0.1.8
 sphinxcontrib-httpdomain==1.4.0
 websocket-client==0.29.0
 
+setuptools>=78.1.1 # not directly required, pinned by Snyk to avoid a vulnerability
